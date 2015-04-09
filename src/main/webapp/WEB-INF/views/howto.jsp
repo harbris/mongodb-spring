@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +18,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="#">Whiteship</a>
+            <a class="brand" href="changeLocale?locale=ko"><spring:message code="test.common.msg"/></a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li class=""><a href="/">Home</a></li>
